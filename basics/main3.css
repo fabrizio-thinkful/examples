@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*input { 
+  border: 1px  dashed black; 
+  color: black; 
+  background: white;
+}*/
+
+h1,
+h2,
+h3, .green {
+  color: green;
+}
+
+h2, .red {
+  color: red;
+}
+
+h2, .cyan {
+  color: cyan;
+}
+
+.myClass {
+    border: 1px solid red;
+    padding: 4 4 4 4;
+}
+
+input { 
+  /*border: 1px solid black; 
+  border: 1px none black; 
+  border: 1px hidden black; 
+  border: 1px dotted black; */
+  border: 1px inset black; 
+  /*border: 1px solid black; 
+  border: 1px double black; 
+  border: 1px groove black; 
+  border: 1px ridge black; 
+  border: 1px inset black; 
+  border: 1px outset black; 
+  color: green; 
+  background: white;*/
+}
+
+input:hover { 
+  border: 2px dashed black;
+  color: red;
+  background-color:yellow;
+}
+

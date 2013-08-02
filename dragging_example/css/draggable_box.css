@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+.widget { 
+	border: 2px ridge black;
+    border-radius:10px;
+	background: cyan;
+	top: 50px;
+    left: 200px;
+	width: 100px; 
+	height: 100px; 	
+    font-size: 1.5em;
+	position: absolute;
+	padding: 0.5em; 
+    text-align:center;
+	alignment-adjust:central;
+	cursor:pointer;
+	vertical-align:text-top;
+	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+}
+
+#letterA {
+	background: linear-gradient(cyan, white);
+	top: 50px;
+    left: 200px;
+}
+
+#letterB{
+	background: linear-gradient(yellow, white);
+	top: 50px;
+    left: 400px;
+}
+
+#letterC{
+	background: linear-gradient(green, white);
+	top: 50px;
+    left: 600px;
+}
+
+#letterD{
+	background: linear-gradient(red, white);
+	top: 250px;
+    left: 200px;
+}
+
+#letterE{
+	background: linear-gradient(blue, white);
+	top: 250px;
+    left: 400px;
+}
+
+#letterF{
+	background: linear-gradient(gray, white);
+	top: 250px;
+    left: 600px;
+}
+
+#letterG{
+	background: linear-gradient(beige, white);
+	top: 450px;
+    left: 200px;
+}
+
+#letterH{
+	background: linear-gradient(chocolate, white);
+	top: 450px;
+    left: 400px;
+}
+
+#letterI{
+	background: linear-gradient(mediumorchid, white);
+	top: 450px;
+    left: 600px;
+}
+
+.on1 { 
+	border: 0px;
+	background: url("../images/on1.png") top;
+	background-size: 55px;
+	position: relative;
+	width:55px;
+	height:23px;
+	top: 50px;
+	left: 800px;
+	cursor:pointer;
+}
+
+.off1 {
+	border: 0px;
+	background: url("../images/off1.png") top;
+	background-size: 55px;
+	position: relative;
+	width:55px;
+	height:23px;
+	top: 50px;
+	left: 800px;
+	cursor:pointer;
+}
+
+.on2 { 
+	border: 0px;
+	background: url("../images/on2.png") top;
+	background-size: 100px;
+	position: relative;
+	width:100px;
+	height:28px;
+	top: 80px;
+	left: 740px;
+	cursor:pointer;
+}
+
+.off2 {
+	border: 0px;
+	background: url("../images/off2.png") top;
+	background-size: 100px;
+	position: relative;
+	width:100px;
+	height:28px;
+	top: 80px;
+	left: 740px;
+	cursor:pointer;
+}

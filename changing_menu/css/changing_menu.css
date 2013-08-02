@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#header{
+	height:115px;
+	margin-top:20px;
+}
+
+.menu-principal{
+	height:83px;
+	left:64px;
+	position:absolute;
+	top:0;width:885px;
+	z-index:2;
+}
+
+.menu-principal li{
+	list-style-type:none;
+}
+
+ul {
+list-style-type: disc;
+}
+
+.menu-principal a{
+	text-decoration:none;
+}
+
+.wrap-botones {
+	width:840px;
+	height:83px;
+	text-decoration:none;
+	list-style-type:none;
+	margin:-103px 94px 0px 34px;
+}
+
+.sombras{
+	width:803px;
+	height:83px;
+	background-image:url("../images/shadow-image.png");
+	position:absolute;
+	top:31px;
+	left:100px;
+	z-index:1;
+}
+
+.big-font, a {
+	font-family: Syncopate,sans-serif; 
+	color: #FFF;
+	font-size: 0.75em;
+	font-weight: 700;
+}
+
+.small-font {
+	font-size: 0.65em;
+	color: #930;
+	padding: 10px 0 0 0;
+	font-family: Verdana,Geneva,sans-serif;
+	line-height: 1.2em;
+}
+
+.menu-home,
+.menu-first,
+.menu-second,
+.menu-third,
+.menu-fourth,
+.menu-fifth,
+.menu-sixth,
+.menu-seventh
+{
+	width:100px;
+	height:65px;
+	float:left;
+	text-align:center;
+	cursor:pointer;
+	padding:17px 0px 0px 0px;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.menu-home { background: linear-gradient(#754715, #F7E29D)}
+.menu-first { background: linear-gradient(#82541C,#F7E29D)}
+.menu-second { background: linear-gradient(#906124,#F7E29D)}
+.menu-third { background: linear-gradient(#9E6E2B,#F7E29D)}
+.menu-fourth { background: linear-gradient(#AC7B33,#F7E29D)}
+.menu-fifth { background: linear-gradient(#BA893B,#F7E29D)}
+.menu-sixth { background: linear-gradient(#C79642,#F7E29D)}
+.menu-seventh { background: linear-gradient(#D5A34A,#F7E29D)}
+
+.menu-home:hover,
+.menu-first:hover,
+.menu-second:hover,
+.menu-third:hover,
+.menu-fourth:hover,
+.menu-fifth:hover,
+.menu-sixth:hover,
+.menu-seventh:hover {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	font-style:italic;	
+	background: linear-gradient(#000,white);
+	-moz-transform: scale(1.2) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-webkit-transform: scale(1.2) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-o-transform: scale(1.2) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	-ms-transform: scale(1.2) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+	transform: scale(1.2) rotate(0deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+}

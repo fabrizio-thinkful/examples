@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget1 {
+  background: gradient black;
+  border: 1px dashed black;
+  color: red;
+  alignment-adjust:central;
+  top:25%;
+  left:30%;
+  width: 500px;
+  height:500px;
+  position: relative;
+  font-size: 1.5em;
+  text-align:center
+  background-color:black; 
+  background-image:url(images/3.jpg);
+  background-position:center; 
+  text-transform: uppercase;
+  text-align:center
+}
+

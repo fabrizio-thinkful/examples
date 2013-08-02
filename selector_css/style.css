@@ -1,0 +1,56 @@
+body {
+  font-size: 0.85em;
+  background: url('background.jpg');
+  font-family: Arial,sans-serif;;
+}
+
+h1 {
+  color: #ff1b43;
+  text-shadow: 0 1px 2px #222222;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+}
+h2 {
+  color: #a1a1a1;
+  text-shadow: 0 1px 2px #222222;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+}
+.wrapper {
+  margin: 50px auto 0 auto;
+  width: 220px;
+}
+
+/***** SELECTBOX style *****/
+.select-box {
+  width: 218px;
+  overflow: hidden;
+  height: 32px;
+  border: 1px solid #9e001a;
+  -moz-box-shadow:    0px 1px 0px 0px #e83e5c;
+  -webkit-box-shadow: 0px 1px 0px 0px #e83e5c;
+  box-shadow:         0px 1px 0px 0px #e83e5c;
+  -moz-border-radius:     3px;
+  -webkit-border-radius:  3px;
+  -khtml-border-radius:   3px;
+  border-radius:          3px;
+  background: #ae001d;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ff2c4a), to(#ae001d));
+  background: -moz-linear-gradient(top,  #ff2c4a,  #ae001d);
+  background: -o-linear-gradient(  #ff2c4a, #ae001d );
+}
+.select-box select {
+  width: 245px;
+  height: 32px;
+  color: #ffd0d7;
+  padding: 5px;
+  background: url('select-arrow.png') no-repeat 187px center;
+  -webkit-appearance: none;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+.select-box option {
+  background: #ae001d;
+}
