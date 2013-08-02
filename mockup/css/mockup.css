@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.widget {	
+	background: linear-gradient(lightgray,white);
+	border: 2px solid black;
+	width:700px;
+	height:200px;
+	left:330px;
+	top:25px;
+	position:absolute;
+	-webkit-box-shadow: 0 20px 6px -6px black;
+  -moz-box-shadow:   0 20px 6px -6px black;
+  box-shadow:   0 20px 6px -6px black;
+}
+
+.form{
+	left:20px;
+	top:50px;
+	position:absolute;
+}
+
+.button-widget{
+	left:520px;
+	top:50px;
+	position:absolute;
+	border-radius:15px;
+	width:160px;
+	height:100px;
+	border: 2px solid white;
+	background:#036;
+	-webkit-box-shadow: 0 20px 6px -6px black;
+  -moz-box-shadow:   0 20px 6px -6px black;
+  box-shadow:   0 20px 6px -6px black;
+	text-align:center;
+	color: white;
+}
+
+.button-widget:hover{
+	background:#711717;
+}
+
+.title {
+	background:#036;
+	color: white;
+	font-size:24px;
+	left:0px;
+	top:0px;
+	width:675px;
+	position:absolute;
+	padding-left:25px;
+}
+
+input[type=text]{
+	width:490px;
+}
+
+select{
+	width:120px;
+}
+.ui-autocomplete{
+	list-style-type:none;
+}
+
+ul.ui-autocomplete
+{
+	width:30px;
+	list-style-position:inside;	
+	background-color:#036;
+	border: 2px solid white;
+	color:white;
+  left: 0px;
+  top: 0px; 
+}

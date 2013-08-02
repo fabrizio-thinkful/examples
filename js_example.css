@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+input[type=button]{
+	background-color:red;
+}
+
+#mybutton {
+	background-color: lightgray;
+}
+

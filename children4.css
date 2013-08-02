@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+.parent {
+	background-color: red;
+	color: white;
+}
+
+.kid {
+	background-color:darkblue;
+	color: red;
+}
+
+.parents{
+	background-color: yellow;
+	color: black;
+}

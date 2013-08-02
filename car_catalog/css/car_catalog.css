@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.menu-principal{
+	height:350px;
+	width:1200px;
+	left:50px;
+	position:absolute;
+	top:0;	
+	z-index:2;
+}
+
+.car1,
+.car2,
+.car3,
+.car4,
+.car5,
+.car6,
+.car7,
+.car8,
+.car9 {  
+  	width:380px;
+	height:220px;
+	float:left;
+	text-align:center;
+	text-decoration:none;
+	list-style-type:none;
+	cursor:pointer;
+	padding:0px 0px 0px 0px;
+	-webkit-transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+.car1 {
+	background: url("../images/1.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car2 {
+	background: url("../images/2.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car3 {
+	background: url("../images/3.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car4 {
+	background: url("../images/4.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car5 {
+	background: url("../images/5.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car6 {
+	background: url("../images/6.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car7 {
+	background: url("../images/7.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car8 {
+	background: url("../images/8.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.car9 {
+	background: url("../images/9.jpg");
+	background-size:380px 220px;
+	background-repeat:no-repeat;
+}
+
+.description_content {
+	font-family: sans-serif;
+	display:none;
+	font-size: 3em;
+	font-weight: 100;
+	color: #FFF;
+	padding: 0 1.92em;
+	text-shadow:5px 5px black;
+	alignment-adjust:central;
+	text-align:center;
+	vertical-align:central;
+}
+
+.description_content2 {
+	font-family: sans-serif;
+	display:none;
+	font-size: 1em;
+	font-weight: 500;
+	color: #FFF;
+	padding: 0 1em;
+	text-shadow:5px 5px black;
+	alignment-adjust:central;
+	text-align:center;
+	vertical-align:central;
+}
+
+.car1:hover,
+.car2:hover,
+.car3:hover,
+.car4:hover,
+.car5:hover,
+.car6:hover,
+.car7:hover,
+.car8:hover,
+.car9:hover {
+	opacity:0.5;
+    filter:alpha(opacity=80);
+	-moz-box-shadow: 0 0 15px 15px #888;
+-webkit-box-shadow: 0 0 15px 15px#888;
+box-shadow: 0 0 15px 15px #888;
+}
+
+.car1:hover > span, 
+.car2:hover > span,
+.car3:hover > span,
+.car4:hover > span,
+.car5:hover > span,
+.car6:hover > span,
+.car7:hover > span,
+.car8:hover > span,
+.car9:hover > span { 
+    display: block; 
+	
+} 

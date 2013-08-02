@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.grand-parent {
+	background-color:yellow;
+}
+
+.parents {
+	background-color: cyan;
+}
+
+.parent {
+	/*background-color:red;*/
+}
+
+.children {
+	background-color: violet;
+}
+
+.child {
+	background:url("../images/1.jpg");
+	background-size:200px 200px;
+	background-repeat:no-repeat;
+}
+
+h1{
+	color:red;
+}
+
+#child1 {
+	color: red;
+}
+
+#child2 {
+	color: cyan;
+}
+
+#child3{
+	color: white;
+}
+

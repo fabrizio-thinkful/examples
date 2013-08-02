@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+@mainColor: #0982c1;
+
+body {
+  color: @maincolor
+  border: 1px dotted #0982c1;
+  max-width: 1024px;
+}

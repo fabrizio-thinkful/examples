@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="js_example.css">
+  <script src="js_example.js"></script>
+  <script src="mylocaljs.js"></script>
+ 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>   	
+
+	<title>js_example</title>
+</head>
+<body>
+	<select name="ourselect" id="myselect"></select>
+  <input type="text" id="mytext" size="80"><br>
+  <input type="button" value="say Hello" id="mybutton" onclick="displaymessage(displaymytext())">
+  <input type="button" value="Say other" onclick="displaymessage('Hello world')">
+  <input type="button" value="Say additional" onclick="displaymessage2(displaymytext())">
+	<!-- <input type="button" id="myinput1" value="Ok">
+  <input type="button" value="Cancel"> -->
+</body>
+</html>

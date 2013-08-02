@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link type="text/javascript" rel="stylesheet" href="css/mockup.css">
+ 	<title>Tasker form</title>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script> 
+  <script src="js/mockup.js"></script>
+</head>
+<body>
+	<div class="widget">
+	  <div class="title">Tasker</div>
+  	<div class="form">	  	
+	    </br>
+  	  <input type="text" id="txttask" class="ui-autocomplete" autocomplete="off" value="Task: Physical outcome of the work" onFocus="cleartext()"></br>
+	    <select id="ddl_urgency" title="popo" class="select-box"  size="4">
+    		<option value="0" disabled>! Urgency</option>
+  	  	<option value="1">*low importance</option>
+	     	<option value="2">high importance</option>
+  	  	<option value="3">*low urgency</option>   
+    	 	<option value="4">high urgency</option>   
+	    </select>
+  	  <select id="ddl_time" class="select-box" size="4">
+    		<option value="0" disabled># Time ?</option>
+        <option value="1">2h</option>
+     		<option value="2">5m</option>
+	    	<option value="3">30m</option>       
+  	  </select>
+    	<select id="ddl_assignee" class="select-box" multiple>
+    		<option value="0" disabled>@ Who ?</option>
+	    	<option value="1">Rahul</option>
+  	   	<option value="2">Ben</option>
+    		<option value="3">Lucas</option>           
+	    </select>
+  	  <select id="ddl_deadline" class="select-box" size="4">
+    		<option value="0" disabled>* When</option>
+    		<option value="1">Today</option>
+     		<option value="2">Tomorrow</option>
+	    	<option value="3">Next Week</option>               
+  	  </select>
+  	</div>
+    <div class="button-widget" onClick="formatstring()">
+    	<h2>Let's go</h2>
+        <h3>click to send ></h3>
+    </div>
+  </div>
+</body>
+</html>
