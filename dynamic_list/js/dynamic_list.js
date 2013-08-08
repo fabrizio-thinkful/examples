@@ -12,6 +12,8 @@ function add(param_text, param_list, param_msg) {
 	document.getElementById(param_msg).display="block";	
 	document.getElementById(param_msg).innerHTML = "Element " + element + " added!" ;	
 	document.getElementById(param_text).value="";	
+	/* This is my comment I need it documented  */
+
 }
 
 
